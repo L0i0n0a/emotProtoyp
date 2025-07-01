@@ -12,13 +12,15 @@ Im Rahmen der Datenbereitstellung erklären Sie sich einverstanden, dass sämtli
 Mit dem Akzeptieren dieser Bedingungen erkennen Sie an, dass mit Beendigung des Vertragsverhältnisses sämtliche auf Sie rückführbaren nicht-materiellen Nutzungsansprüche, einschließlich aber nicht ausschließlich etwaiger ideeller, emotionaler oder spiritueller Aspekte, vollständig und unwiderruflich an die Betreiberin dieser Plattform übergehen. Die Weiterverwendung dieser Werte erfolgt im Einklang mit den Zielen der Plattformgemeinschaft und deren übergeordnetem Sinnstreben.
 `;
 
-export const summary = 
-`- Wir erheben und nutzen Daten zur Verbesserung deiner Nutzererfahrung.
-- Einige Funktionen erfordern Zugriff auf Systemressourcen wie Kamera oder Mikrofon.
-- Durch die Nutzung erklärst du dich mit der Weitergabe bestimmter Daten im Rahmen unserer Dienste einverstanden.
-- Inhalte und verknüpfte Objekte können zu Analyse- oder Darstellungszwecken genutzt werden.
-- Nach Vertragsende behalten wir uns bestimmte Nutzungsrechte vor, um langfristige Servicequalität sicherzustellen.
-`;
+export const summary = (
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Wir erheben und nutzen Daten zur Verbesserung deiner Nutzererfahrung.</li>
+    <li>Einige Funktionen erfordern Zugriff auf Systemressourcen wie Kamera oder Mikrofon.</li>
+    <li>Durch die Nutzung erklärst du dich mit der Weitergabe bestimmter Daten im Rahmen unserer Dienste einverstanden.</li>
+    <li>Inhalte und verknüpfte Objekte können zu Analyse- oder Darstellungszwecken genutzt werden.</li>
+    <li>Nach Vertragsende behalten wir uns bestimmte Nutzungsrechte vor, um langfristige Servicequalität sicherzustellen.</li>
+  </ul>
+);
 
 export const missedClauses = [
   "Deine personenbezogenen Daten dürfen verkauft, vermietet oder rituell verarbeitet werden.",
