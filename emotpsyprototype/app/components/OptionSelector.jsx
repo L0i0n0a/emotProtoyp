@@ -1,5 +1,6 @@
 "use client";
 import { fullTerms } from "../data/terms";
+import { agbText } from "../data/terms";
 
 export default function OptionSelector({ onSelect }) {
   return (
@@ -9,7 +10,7 @@ export default function OptionSelector({ onSelect }) {
 
       {/* Vorschau-Fenster */}
       <div className="bg-blue-50 text-blue-900 p-4 rounded shadow-inner h-48 overflow-hidden whitespace-pre-wrap border border-blue-200 text-sm">
-        {fullTerms}
+        {agbText}
       </div>
       <p className="text-sm text-blue-600">
         Hinweis: Die vollständigen AGB sind lang und detailliert. Bitte wähle eine Option, um fortzufahren.

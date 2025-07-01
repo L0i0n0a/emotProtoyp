@@ -1,5 +1,6 @@
 "use client";
 import { fullTerms } from "../data/terms";
+import { agbText } from "../data/terms";
 
 export default function TermsFull({ onConfirm, onBack }) {
   return (
@@ -7,7 +8,7 @@ export default function TermsFull({ onConfirm, onBack }) {
       <h2 className="text-xl font-semibold text-blue-800">Vollständige AGB</h2>
 
       <div className="flex-1 overflow-y-auto rounded bg-gray-100 text-gray-900 p-4 whitespace-pre-wrap shadow-inner">
-        {fullTerms}
+        {agbText}
       </div>
 
       <div className="flex justify-end pt-2 border-t">

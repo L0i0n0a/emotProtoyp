@@ -12,6 +12,27 @@ Im Rahmen der Datenbereitstellung erklären Sie sich einverstanden, dass sämtli
 Mit dem Akzeptieren dieser Bedingungen erkennen Sie an, dass mit Beendigung des Vertragsverhältnisses sämtliche auf Sie rückführbaren nicht-materiellen Nutzungsansprüche, einschließlich aber nicht ausschließlich etwaiger ideeller, emotionaler oder spiritueller Aspekte, vollständig und unwiderruflich an die Betreiberin dieser Plattform übergehen. Die Weiterverwendung dieser Werte erfolgt im Einklang mit den Zielen der Plattformgemeinschaft und deren übergeordnetem Sinnstreben.
 `;
 
+export const agbText = `
+§1 Gegenstand der Vereinbarung  
+Mit der Inanspruchnahme der digitalen Dienstleistung erklärt sich der/die Nutzer:in konkludent mit sämtlichen Bestimmungen dieser allgemeinen Geschäftsbedingungen (AGB) einverstanden, ungeachtet individueller Kenntnisnahme.
+
+§2 Erhebung und Verarbeitung nutzerbezogener Informationen  
+Zur Wahrung systeminterner Funktionalitäten sowie zur kontinuierlichen Optimierung behält sich die Betreiberin vor, personenbezogene, pseudonymisierte und/oder technische Daten gemäß interner Verarbeitungsrichtlinien automatisiert zu erfassen, zu speichern und gegebenenfalls auszuwerten.
+
+§3 Funktionale Zugriffskontingente  
+Die Anwendung erfordert für bestimmte Module temporären oder permanenten Zugriff auf Peripheriegeräte (z. B. Kamera, Mikrofon, Standortdienste). Die Gewährung solcher Zugriffe erfolgt implizit mit Aktivierung der jeweiligen Funktionseinheit.
+
+§4 Übertragung von Nutzungsdaten an Dritte  
+Ein Transfer ausgewählter Nutzungsinformationen an wirtschaftlich oder vertraglich verbundene Drittanbieter ist im Rahmen betriebswirtschaftlicher Optimierung sowie zur Aufrechterhaltung der Systemintegrität vorbehalten. Eine spezifische Auflistung potenzieller Datenempfänger entfällt.
+
+§5 Weiterverwendung erzeugter Inhalte  
+Durch Interaktion mit der Plattform entstehen Datenobjekte (z. B. Eingaben, Interaktionen, Medien), die in anonymisierter Form zur Leistungsverbesserung, Analyse und internen Qualitätssicherung weiterverarbeitet werden können – unabhängig vom Fortbestand des Nutzungsverhältnisses.
+
+§6 Gültigkeit und salvatorische Wirkung  
+Im Falle partieller Unwirksamkeit einzelner Klauseln bleiben die übrigen Vertragsbestandteile hiervon unberührt. Eine etwaige Neuregelung erfolgt ohne explizite Vorabbenachrichtigung der Nutzerpartei.
+`;
+
+
 export const summary = (
   <ul className="list-disc pl-6 space-y-2">
     <li>Wir erheben und nutzen Daten zur Verbesserung deiner Nutzererfahrung.</li>
