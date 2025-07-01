@@ -16,9 +16,15 @@ function App() {
       {!choice ? (
         <OptionSelector onSelect={setChoice} />
       ) : choice === "full" ? (
-        <TermsFull onConfirm={() => setConfirmed(true)} />
+        <TermsFull
+          onConfirm={() => setConfirmed(true)}
+          onBack={() => setChoice(null)}
+        />
       ) : (
-        <TermsSummary onConfirm={() => setConfirmed(true)} />
+        <TermsSummary 
+          onConfirm={() => setConfirmed(true)} 
+          onBack={() => setChoice(null)}
+        />
       )}
     </div>
   );
