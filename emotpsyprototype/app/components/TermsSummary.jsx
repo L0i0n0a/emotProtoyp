@@ -11,7 +11,7 @@ export default function TermsSummary({ onConfirm, onBack }) {
           Zurück
         </button>
         <button onClick={onConfirm} className="bg-blue-700 text-white px-4 py-2 rounded">
-          Ich akzeptiere (ungelesen 😅)
+          Ich akzeptiere
         </button>
       </div>
     </div>
