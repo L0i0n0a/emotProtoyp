@@ -67,12 +67,11 @@ Sollten einzelne Bestimmungen dieser AGB unwirksam sein, bleibt die Wirksamkeit 
 
 
 export const summary = 
-`- Wir erheben und nutzen Daten zur Verbesserung deiner Nutzererfahrung.
-- Einige Funktionen erfordern Zugriff auf Systemressourcen wie Kamera oder Mikrofon.
-- Durch die Nutzung erklärst du dich mit der Weitergabe bestimmter Daten im Rahmen unserer Dienste einverstanden.
-- Inhalte und verknüpfte Objekte können zu Analyse- oder Darstellungszwecken genutzt werden.
-- Nach Vertragsende behalten wir uns bestimmte Nutzungsrechte vor, um langfristige Servicequalität sicherzustellen.
-`;
+`Wir erheben und nutzen Daten zur Verbesserung deiner Nutzererfahrung.
+Einige Funktionen erfordern Zugriff auf Systemressourcen wie Kamera oder Mikrofon.
+Durch die Nutzung erklärst du dich mit der Weitergabe bestimmter Daten im Rahmen unserer Dienste einverstanden.
+Inhalte und verknüpfte Objekte können zu Analyse- oder Darstellungszwecken genutzt werden.
+Nach Vertragsende behalten wir uns bestimmte Nutzungsrechte vor, um langfristige Servicequalität sicherzustellen.`;
 
 export const missedClauses = [
   "Deine personenbezogenen Daten dürfen an Dritte weitergegeben, analysiert und für kommerzielle Zwecke genutzt werden, auch außerhalb der EU (§8).",
