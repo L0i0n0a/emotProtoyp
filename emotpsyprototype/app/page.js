@@ -12,7 +12,7 @@ function App() {
   if (confirmed) return <ShameScreen userChoice={choice} />;
 
   return (
-    <div className="p-8 max-w-3xl mx-auto">
+    <div className="p-8 w-[80vw] mx-auto">
       {!choice ? (
         <OptionSelector onSelect={setChoice} />
       ) : choice === "full" ? (
