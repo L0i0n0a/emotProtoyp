@@ -7,7 +7,7 @@ function App() {
   const [started, setStarted] = useState(false);
 
   return (
-    <div className="p-8 w-[90vw] max-w-5xl mx-auto">
+    <div className="p-8 w-[90vw] mx-auto">
       {!started ? (
         <div className="flex flex-col items-center justify-center h-[85vh] text-center space-y-6">
           <h1 className="text-3xl font-bold mb-4">
