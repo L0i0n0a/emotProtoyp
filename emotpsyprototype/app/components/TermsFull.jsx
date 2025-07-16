@@ -29,27 +29,45 @@ export default function TermsFull({ onConfirm, onBack }) {
 
   return (
     <div className="flex flex-col h-[90vh] space-y-4">
-      <h2 className="text-xl font-semibold text-blue-600">Vollständige AGB</h2>
+      <h2 className="text-xl font-semibold text-blue-800">Vollständige AGB</h2>
 
       {/* Progress Bar */}
-      <div className="w-full h-2 bg-gray-200 rounded overflow-hidden mb-2">
+      <div
+        className="w-full h-2 rounded overflow-hidden mb-2 relative"
+        style={{
+          background: "linear-gradient(90deg, #2563eb 0%, #22c55e 100%)"
+        }}
+      >
         <div
-          className="h-full bg-blue-600 transition-all duration-100"
-          style={{ width: `${percent}%` }}
+          className="h-full bg-gray-200 absolute right-0 top-0 transition-all duration-100"
+          style={{ width: `${100 - percent}%` }}
         />
       </div>
-      <div className="text-s text-gray-200 mb-2">
-        {isReady
-          ? "Du kannst jetzt akzeptieren."
-          : `Bitte lies die AGB. Du kannst in ${Math.ceil((DURATION - elapsed) / 1000)} Sekunden akzeptieren.`}
+
+      <div className="text-s mb-2">
+        {isReady ? (
+          <span className="text-green-600">Du kannst jetzt akzeptieren.</span>
+        ) : (
+          <span className="text-blue-800">{`Bitte lies die AGB. Du kannst in ${Math.ceil((DURATION - elapsed) / 1000)} Sekunden akzeptieren.`}</span>
+        )}
       </div>
 
-      <div className="flex-1 overflow-y-auto rounded bg-gray-100 text-gray-900 p-4 whitespace-pre-wrap shadow-inner">
+      {/* Timer Note */}
+      <div className="bg-blue-50 text-blue-800 text-base rounded p-3 flex items-start gap-2 mb-2 border border-blue-200 shadow-inner">
+        <span className="text-lg">⏳</span>
+        <span>
+          <strong>Warum der Timer?</strong><br />
+          Im Durchschnitt benötigt ein Mensch etwa so lange, um die AGB zu lesen.<br />
+          Der Countdown soll sicherstellen, dass du genug Zeit hast, um die wichtigsten Inhalte wirklich wahrzunehmen bevor du zustimmst.
+        </span>
+      </div>
+
+      <div className="flex-1 overflow-y-auto rounded bg-blue-50 text-gray-900 p-4 whitespace-pre-wrap shadow-inner">
         {fullTerms}
       </div>
 
       <div className="flex flex-row items-center justify-between w-full pt-2 border-t">
-        <button onClick={onBack} className="text-m text-grey-300 hover:underline hover:text-blue-200 mr-4 cursor-pointer">
+        <button onClick={onBack} className="text-m text-grey-300 hover:underline hover:text-blue-400 mr-4 cursor-pointer">
           Zurück
         </button>
         <button
