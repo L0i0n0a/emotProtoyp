@@ -7,7 +7,7 @@ export default function ShameScreen({ userChoice }) {
   const topRef = useRef(null);
 
   return (
-    <div ref={topRef} className="p-8 mt-16 max-w-3xl w-full mx-auto bg-blue-50 shadow-inner rounded-lg border border-blue-200">
+    <div ref={topRef} className="p-8 mt-16 max-w-7xl w-[80vw] mx-auto bg-blue-50 shadow-inner rounded-lg border border-blue-200">
       {userChoice === "summary" ? (
         <>
           <h2 className="text-2xl font-bold text-blue-700">Vielleicht lohnt sich beim nächsten Mal ein genauerer Blick</h2>
@@ -32,7 +32,7 @@ export default function ShameScreen({ userChoice }) {
               <li key={idx}>{clause}</li>
             ))}
           </ul>
-            <p className="mt-4 text-gray-800">Wenn du jetzt das Bedürnis hast dir die AGB nocheinmal genauer anzuschauen kannst du das hier tun</p>
+            <p className="mt-4 text-gray-800">Wenn du jetzt das Bedürnis hast dir die AGB nocheinmal genauer anzuschauen kannst du das hier tun.</p>
           {/* Show Full Terms Button */}
           <div className="flex justify-center mt-8">
             <button
