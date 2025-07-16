@@ -1,30 +1,22 @@
+// App.js
 "use client";
 import { useState } from "react";
-import OptionSelector from "./components/OptionSelector";
-import TermsFull from "./components/TermsFull";
-import TermsSummary from "./components/TermsSummary";
-import ShameScreen from "./components/ShameScreen";
+import TermsFlow from "./components/TermsFlow";
 
 function App() {
-  const [choice, setChoice] = useState(null);
-  const [confirmed, setConfirmed] = useState(false);
-
-  if (confirmed) return <ShameScreen userChoice={choice} />;
+  const [started, setStarted] = useState(false);
 
   return (
-    <div className="p-8 w-[80vw] mx-auto">
-      {!choice ? (
-        <OptionSelector onSelect={setChoice} />
-      ) : choice === "full" ? (
-        <TermsFull
-          onConfirm={() => setConfirmed(true)}
-          onBack={() => setChoice(null)}
-        />
+    <div className="p-8 w-[80vw] mx-auto ">
+      {!started ? (
+        <button
+          onClick={() => setStarted(true)}
+          className="px-6 py-3 bg-blue-600 text-white rounded-2xl hover:bg-blue-700 transition"
+        >
+          Start
+        </button>
       ) : (
-        <TermsSummary 
-          onConfirm={() => setConfirmed(true)} 
-          onBack={() => setChoice(null)}
-        />
+        <TermsFlow />
       )}
     </div>
   );
