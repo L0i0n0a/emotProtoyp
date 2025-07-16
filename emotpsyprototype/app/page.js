@@ -28,7 +28,7 @@ function App() {
 
           <button
             onClick={() => setStarted(true)}
-            className="mt-8 px-8 py-4 text-lg bg-blue-600 text-white rounded-full hover:bg-blue-700 transition"
+            className="mt-8 px-8 py-4 text-lg bg-blue-600 text-white cursor-pointer rounded-full hover:bg-blue-800 transition"
           >
             Start
           </button>

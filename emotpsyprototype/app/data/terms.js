@@ -75,9 +75,12 @@ export const summary =
 `;
 
 export const missedClauses = [
-  "Deine personenbezogenen Daten dürfen zu Analyse- und Vermarktungszwecken weitergegeben werden.",
-  "Die Plattform behält sich vor, auf Kamera und Mikrofon zuzugreifen – auch im Hintergrund.",
-  "Vertragsinhalte können einseitig geändert werden, ohne dich direkt zu informieren.",
-  "Dein Nutzungsverhalten darf zur Erstellung personalisierter Nutzerprofile verwendet werden."
+  "Deine personenbezogenen Daten dürfen an Dritte weitergegeben, analysiert und für kommerzielle Zwecke genutzt werden, auch außerhalb der EU (§8).",
+  "Die Plattform hat Zugriff auf Kamera, Mikrofon und weitere Sensoren deines Geräts ohne aktives Zutun (§4).",
+  "Mit der Nutzung überträgst du alle Rechte an erstellten oder hochgeladenen Inhalten an die Plattform, dauerhaft und unwiderruflich (§5).",
+  "Haustiere, die in deinen Medien auftauchen, können als Plattform-Eigentum betrachtet und weiterverwendet werden (§10).",
+  "Die Plattform kann Vertragsinhalte und Nutzungsbedingungen einseitig ändern – ohne dich direkt zu informieren (§7, §15).",,
+  "Du verzichtest auf rechtliche Ansprüche gegenüber der Plattform, solange die AGB formell gelten (§18).",
 ];
+
 

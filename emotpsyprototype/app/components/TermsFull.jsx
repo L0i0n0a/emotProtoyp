@@ -44,7 +44,7 @@ export default function TermsFull({ onConfirm, onBack }) {
         />
       </div>
 
-      <div className="text-s mb-2">
+      <div className="text-s mb-2 ">
         {isReady ? (
           <span className="text-green-600">Du kannst jetzt akzeptieren.</span>
         ) : (

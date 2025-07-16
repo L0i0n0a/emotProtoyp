@@ -3,14 +3,14 @@ import { fullTerms } from "../data/terms";
 
 export default function OptionSelector({ onSelect }) {
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 text-lg">
       <h1 className="text-3xl text-center font-bold text-blue-900">Willkommen zu unseren AGB</h1>
-      <p className="text-m text-blue-800">
+      <p className="text-blue-800">
         <span className="font-bold">Hinweis:</span> Diese KI wurde speziell darauf trainiert, juristische Dokumente wie AGBs effizient zu analysieren.
         Sie greift auf umfangreiche rechtliche Datensätze zurück, erkennt zentrale Klauseln und priorisiert wichtige Inhalte.
         Im Vergleich zur manuellen Lektüre ist sie nicht nur deutlich schneller, sondern berücksichtigt auch Aspekte, die Laien oft übersehen.
       </p>
-      <p className="text-m text-blue-800">
+      <p className="text-blue-800">
         Sie gibt dir eine prägnante Zusammenfassung der wichtigsten Punkte und hilft dir, informierte Entscheidungen zu treffen.
       </p>
       <p className="text-blue-800 text-xl font-bold">Vorschau: </p>

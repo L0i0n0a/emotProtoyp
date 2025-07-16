@@ -13,7 +13,7 @@ function TermsFlow() {
     if (confirmed) return <ShameScreen userChoice={choice} />;
 
     return (
-        <div className="p-8 w-[80vw] mx-auto">
+        <div className="p-8 w-[80vw] mx-auto font-sans">
             {!choice ? (
                 <OptionSelector onSelect={setChoice} />
             ) : choice === "full" ? (
