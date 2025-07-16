@@ -6,7 +6,7 @@ import { fullTerms } from "../data/terms";
 
 export default function TermsFull({ onConfirm, onBack }) {
   // 5 minutes in milliseconds
-  const DURATION = 5 * 60 * 1000;
+  const DURATION = 2 * 60 * 1000;
   const [elapsed, setElapsed] = useState(0);
   const intervalRef = useRef(null);
 
@@ -47,7 +47,7 @@ export default function TermsFull({ onConfirm, onBack }) {
         {fullTerms}
       </div>
 
-      <div className="flex justify-end pt-2 border-t">
+      <div className="flex flex-row items-center justify-between w-full pt-2 border-t">
         <button onClick={onBack} className="text-m text-grey-300 hover:underline hover:text-blue-200 mr-4 cursor-pointer">
           Zurück
         </button>

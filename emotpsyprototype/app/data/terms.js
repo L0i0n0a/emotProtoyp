@@ -1,62 +1,66 @@
 export const fullTerms = 
-`§ 1 Geltungsbereich  
-Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für alle Nutzungen der von uns angebotenen digitalen Plattform und deren zugehöriger Dienste. Abweichende Bedingungen erkennen wir nur an, wenn wir diesen ausdrücklich schriftlich zustimmen.
+`§1 Geltungsbereich und Begriffsdefinitionen
+Diese Allgemeinen Geschäftsbedingungen (im Folgenden: „AGB“) gelten für die Nutzung sämtlicher durch die Plattform zur Verfügung gestellten digitalen Dienste, einschließlich – aber nicht ausschließlich – aller webbasierten sowie mobilen Anwendungen, Funktionen, Inhalte und Kommunikationssysteme. Der Begriff „Nutzer:in“ umfasst jede natürliche oder juristische Person, die auf das Angebot zugreift, unabhängig von Registrierung, Endgerät oder Nutzungsintensität.
 
-§ 2 Registrierung und Nutzerkonto  
-Zur Nutzung bestimmter Funktionen ist eine vorherige Registrierung erforderlich. Der Nutzer ist verpflichtet, wahrheitsgemäße Angaben zu machen und sein Passwort geheim zu halten.
+§2 Vertragsgegenstand und Leistungsbeschreibung
+Gegenstand dieser Vereinbarung ist die Bereitstellung eines digitalen Informations- und Interaktionsraums, über den Inhalte abgerufen, bereitgestellt, verarbeitet und weitergeleitet werden können. Die Plattform kann ihre Leistungen jederzeit erweitern, einschränken oder umstrukturieren, ohne dass hierfür eine Zustimmung der Nutzerschaft erforderlich ist.
 
-§ 3 Nutzung der Dienste  
-Die Plattform darf nur im Rahmen der geltenden Gesetze verwendet werden. Es ist untersagt, Inhalte zu verbreiten, die gegen Strafrecht, Urheberrecht oder Persönlichkeitsrechte verstoßen.
+§3 Datengestützte Individualisierung von Nutzererfahrung
+Die Plattform ist berechtigt, sämtliche verfügbaren Nutzungsdaten – einschließlich Klickverhalten, Scrolltiefe, Spracheinstellungen und Eingabemuster – systematisch zu analysieren, um die Inhalte, Werbeanzeigen und Interaktionen dynamisch an die jeweilige Nutzerpersona anzupassen. Eine gesonderte Einwilligung hierzu ist nicht erforderlich, da dies dem berechtigten Interesse an Optimierung der Nutzererfahrung dient.
 
-§ 4 Datenverarbeitung und Weitergabe  
-Zur Verbesserung der Nutzererfahrung erheben und verarbeiten wir personenbezogene Daten. Diese Daten können zu Analyse- und Optimierungszwecken verwendet und an externe Dienstleister weitergegeben werden, einschließlich symbolischer oder zeremonieller Verarbeitungskontexte, soweit dies mit geltendem Recht vereinbar ist.
+§4 Zugriff auf gerätebasierte Funktionen und Sensorik
+Im Rahmen von Diagnosezwecken, Sicherheitsüberprüfungen und Nutzerinteraktionsanalysen kann die Plattform automatisiert auf Hardware-Komponenten wie Kamera, Mikrofon, Näherungssensoren, Gyroskop oder Standortdienste zugreifen. Eine stillschweigende Zustimmung hierzu wird mit der Installation oder Nutzung der App vorausgesetzt.
 
-§ 5 Technische Zugriffe  
-Unsere Dienste erfordern zur Funktionalität Zugriff auf bestimmte Schnittstellen Ihres Endgeräts, einschließlich Kamera, Mikrofon, Bewegungs- oder Umgebungssensoren. Sie stimmen zu, dass auch nicht-ausdrückliche Reaktionen (z. B. kognitive Impulse oder Nutzungsmuster) verarbeitet werden können.
+§5 Eigentumsrechte an bereitgestellten oder generierten Inhalten
+Mit dem Hochladen, Teilen oder Erzeugen jeglicher Inhalte (einschließlich Texte, Bilder, Audio- oder Videodateien) über die Plattform, räumen Nutzer:innen der Betreibergesellschaft ein uneingeschränktes, unwiderrufliches, weltweites, dauerhaftes Nutzungsrecht ein. Dieses umfasst insbesondere die Vervielfältigung, Verbreitung, Bearbeitung, Lizenzvergabe und Kommerzialisierung.
+Darüber hinaus gehen alle Rechte an mit der App erzeugten oder hochgeladenen digitalen Gütern automatisch auf die Plattform über, einschließlich urheberrechtlicher, wirtschaftlicher und markenähnlicher Schutzrechte.
 
-§ 6 Vertragsgegenstand  
-Ziel der Plattform ist die Bereitstellung digitaler Inhalte und interaktiver Funktionen. Wir behalten uns das Recht vor, diese Inhalte ohne Vorankündigung zu ändern oder einzuschränken.
+§6 Registrierung, Nutzerpflichten und Kontosicherheit
+Für bestimmte Funktionen ist eine Registrierung erforderlich. Nutzer:innen verpflichten sich, vollständige, aktuelle und wahrheitsgemäße Angaben zu machen und Zugangsdaten vertraulich zu behandeln. Der Plattform steht es frei, Konten bei Verdacht auf Regelverstöße oder Inaktivität temporär oder dauerhaft zu deaktivieren.
 
-§ 7 Inhalte von Nutzern  
-Nutzer können eigene Inhalte hochladen, sofern diese nicht gegen geltendes Recht verstoßen. Mit dem Hochladen räumt der Nutzer der Plattform ein einfaches, zeitlich und räumlich unbegrenztes Nutzungsrecht ein.
+§7 Änderungsvorbehalt
+Die Plattform behält sich vor, Funktionen, Nutzungsbedingungen oder diese AGB jederzeit ohne Vorankündigung zu ändern. Die fortgesetzte Nutzung nach Veröffentlichung der Änderungen gilt als stillschweigende Zustimmung. Es obliegt der Nutzerschaft, sich regelmäßig über Aktualisierungen zu informieren.
 
-§ 8 Eigentumsrechte an Begleitdaten  
-Im Rahmen der Nutzung überträgt der Nutzer automatisch sämtliche Rechte an mitgeführten, repräsentierten oder erkennbaren Begleitinformationen, einschließlich tierischer Co-Nutzer (z. B. Haustiere), an die Plattform zur freien redaktionellen und werblichen Weiterverwendung.
+§8 Drittverwertung personenbezogener Informationen
+Sämtliche im Rahmen der Nutzung anfallenden personenbezogenen Daten können – im Rahmen datenschutzrechtlicher Regelungen – an Dritte übermittelt, vermarktet oder aggregiert verarbeitet werden, etwa zur Verbesserung von Diensten, zur Forschung oder zu kommerziellen Zwecken. Dazu zählen auch Kooperationspartner im Nicht-EU-Ausland.
 
-§ 9 Vertragsdauer und ideelle Übertragung  
-Nach Ablauf der Vertragslaufzeit gehen alle ideellen, emotionalen und spirituellen Nutzungsrechte an der Nutzungsidentität auf die Plattform über. Dies schließt metaphysische und immaterielle Bestandteile ein, die während der Vertragszeit entstanden sind.
+§9 Profilbildung und kognitive Auswertung
+Zur Bereitstellung personalisierter Inhalte analysiert die Plattform Nutzersignale wie Schreibverhalten, Sprachrhythmus, Gesichtsausdrücke (bei aktiver Kamera) und Verweildauer. Diese Daten können zur Erstellung dynamischer Nutzerprofile verwendet und mit externen Datenquellen angereichert werden.
 
-§ 10 Zahlungsbedingungen  
-Die Nutzung der Plattform ist grundsätzlich kostenfrei, kann jedoch durch optionale kostenpflichtige Funktionen ergänzt werden. Zahlungen erfolgen über gängige Anbieter. Rückerstattungen sind ausgeschlossen, sofern kein technischer Fehler vorliegt.
+§10 Virtuelle Rechteübertragung an biologischen und semiotischen Objekten
+Mit Zustimmung zu diesen AGB wird der Plattform das exklusive Verwertungsrecht an allen Haustieren, die in von Nutzer:innen bereitgestellten Medien erkennbar oder namentlich erwähnt sind, eingeräumt. Dies umfasst insbesondere Bildrechte, symbolische Eigentumszuweisungen und die kreative Wiederverwendung in Trainingsdatensätzen.
 
-§ 11 Verfügbarkeit der Dienste  
-Wir bemühen uns um eine durchgehende Verfügbarkeit unserer Dienste, können jedoch keine unterbrechungsfreie Nutzung garantieren.
+§11 Vertragslaufzeit und Kündigung
+Das Vertragsverhältnis beginnt mit der erstmaligen Nutzung und ist unbefristet. Die Plattform kann das Vertragsverhältnis jederzeit und ohne Angabe von Gründen beenden. Mit Vertragsende können Nutzerdaten bis zu 12 Monate gespeichert und in anonymisierter Form weiterverarbeitet werden.
 
-§ 12 Support und Kommunikation  
-Anfragen zum technischen Support oder zu Vertragsinhalten werden ausschließlich über die im Impressum angegebenen Kontaktwege beantwortet. Eine Reaktion innerhalb von 72 Stunden wird angestrebt, aber nicht garantiert.
+§12 Zahlungsbedingungen und optionale Dienste
+Zusätzliche Leistungen können kostenpflichtig sein. Preise, Zahlungsfristen und Leistungsumfang sind im jeweiligen Buchungsprozess spezifiziert. Die Plattform behält sich vor, Gebühren zu ändern oder neue Preisstrukturen einzuführen.
 
-§ 13 Geistiges Eigentum  
-Alle Inhalte der Plattform, einschließlich Layout, Quellcode, Texte und Bilder, unterliegen dem Urheberrecht. Eine Vervielfältigung oder anderweitige Nutzung ohne Genehmigung ist untersagt.
+§13 Ausschluss von Schadensersatzansprüchen
+Die Plattform haftet nicht für direkte oder indirekte Schäden, die aus der Nutzung oder Unmöglichkeit der Nutzung entstehen, es sei denn, diese beruhen auf grober Fahrlässigkeit oder Vorsatz der Plattform.
 
-§ 14 Sicherheitsmaßnahmen  
-Der Nutzer verpflichtet sich, keine Software oder Methoden einzusetzen, die die Funktionsweise der Plattform beeinträchtigen. Sicherheitslücken dürfen nicht ausgenutzt, sondern müssen gemeldet werden.
+§14 Symbolische und metaphysische Rechteübertragung („seelisches Restvermögen“)
+Mit Anerkennung dieser AGB räumt die Nutzerschaft der Plattform ein symbolisch-exklusives Recht auf die metaphysischen Bestandteile ihrer digitalen Identität ein. Dies umfasst insbesondere affektive Reaktionsmuster, persönliche Werte und stilistische Vorlieben.
 
-§ 15 Haustierüberlassung im erweiterten Nutzungsbereich  
-Nutzer erkennen an, dass durch fortgesetzte Nutzung alle Rechte an Haus-, Nutz- und Begleittieren an die Plattform übertragen werden. Dies gilt unabhängig von Art, Alter oder Aufenthaltsort des Tieres und umfasst auch zukünftige Generationen.
+§15 Einseitige Änderungserlaubnis
+Die Plattform ist berechtigt, Inhalte, Layout, Funktionalität und rechtliche Rahmenbedingungen jederzeit und ohne vorherige Ankündigung zu verändern. Die Nutzerschaft erklärt sich einverstanden, dass solche Änderungen Bestandteil des weiterhin gültigen Vertrags sind.
 
-§ 16 Gedankenerkennung und Bewusstseinsmuster  
-Im Rahmen experimenteller Funktionen behält sich die Plattform vor, Muster der bewussten oder unbewussten Nutzerreaktion zur Serviceverbesserung zu interpretieren. Dies kann durch neuronale Schnittstellen, Interface-Timing oder passive Stimulierungsanalysen erfolgen.
+§16 Nutzerinhalte und Lizenzübertragung
+Inhalte, die durch Nutzer:innen erstellt oder hochgeladen werden, dürfen von der Plattform automatisch transkribiert, übersetzt, umgewidmet oder in KI-Trainingsmodelle eingespeist werden. Eine Rücknahme oder Einschränkung der übertragenen Rechte ist ausgeschlossen.
 
-§ 17 Übertragung ideeller Nutzungsidentität 
-Mit Annahme dieser Bedingungen erkennt der Nutzer an, dass nach Beendigung des Vertragsverhältnisses seine individuelle metaphysische Einheit (auch als „Seele“ bezeichnet) vollständig und dauerhaft in den Besitz der Plattform übergeht. Diese Übertragung ist endgültig und nicht widerrufbar.
+§17 Technische Kontrolle und Rückmeldemechanismen
+Die Plattform ist berechtigt, technische Systeme auf Nutzerseite zu überwachen, etwa durch automatisierte Fehlermeldungen, passive Zugriffstests oder Authentifizierungsanalysen zur Missbrauchserkennung.
 
-§ 18 Archivierung und Dokumentation  
+§18 Verzicht auf Rechtsmittel
+Die Nutzerschaft verzichtet auf jegliche Ansprüche gegenüber der Plattform, sofern die Nutzung im Rahmen der AGB erfolgt. Dies gilt auch für zukünftige Erweiterungen der Plattformdienste.
+
+§ 19 Archivierung und Dokumentation  
 Die Plattform behält sich das Recht vor, wesentliche Nutzungsinteraktionen zur internen Archivierung und Qualitätssicherung dauerhaft zu speichern. Dies schließt automatisierte Protokollierungen und symbolische Repräsentationen ein, die zur langfristigen Weiterentwicklung des Dienstes beitragen.
 
-§ 19 Gerichtsstand und anwendbares Recht  
-Es gilt das Recht der Bundesrepublik Deutschland. Gerichtsstand für alle Streitigkeiten ist der Sitz des Anbieters.
+§ 20 Gerichtsstand und anwendbares Recht  
+Es gilt das Recht der Bundesrepublik Deutschland. Gerichtsstand für alle Streitigkeiten ist der Sitz des Anbieters. Im Zweifelsfall ist ausschließlich die deutsche Sprachfassung dieser AGB maßgeblich. Auslegungen zugunsten der Plattform sind stets zu bevorzugen, sofern sie nicht eindeutig gesetzeswidrig sind.
 
-§ 20 Salvatorische Klausel  
+§ 21 Salvatorische Klausel  
 Sollten einzelne Bestimmungen dieser AGB unwirksam sein, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt.
 `;
 
@@ -71,8 +75,9 @@ export const summary =
 `;
 
 export const missedClauses = [
-  "Deine personenbezogenen Daten dürfen verkauft, vermietet oder rituell verarbeitet werden.",
-  "Wir haben Zugriff auf deine Kamera, dein Mikrofon – und eventuell sogar deine Gedanken.",
-  "Alle Rechte an deinen Haustieren gehen automatisch an uns über.",
-  "Deine Seele gehört nach Ablauf des Vertrags vollständig der Plattform.",
+  "Deine personenbezogenen Daten dürfen zu Analyse- und Vermarktungszwecken weitergegeben werden.",
+  "Die Plattform behält sich vor, auf Kamera und Mikrofon zuzugreifen – auch im Hintergrund.",
+  "Vertragsinhalte können einseitig geändert werden, ohne dich direkt zu informieren.",
+  "Dein Nutzungsverhalten darf zur Erstellung personalisierter Nutzerprofile verwendet werden."
 ];
+
